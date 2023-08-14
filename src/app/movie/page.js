@@ -12,7 +12,7 @@ const Movie = async () => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'c02fbc68bcmshbcf86db29a2c655p12007cjsn9adea8d51505',
+            'X-RapidAPI-Key': '3d016c63c3mshf19ac086b652107p112ea7jsn2c2c998bcf37',
             'X-RapidAPI-Host': 'netflix54.p.rapidapi.com'
         }
     };

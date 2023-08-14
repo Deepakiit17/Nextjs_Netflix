@@ -5,12 +5,12 @@ import Image from "next/image";
 const Page = async ({params}) => {
     const id = params.id;
 
-    const url = `https://netflix54.p.rapidapi.com/title/details/?ids=${id}&lang=en`;
+    const url = `https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en`;
 
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'c02fbc68bcmshbcf86db29a2c655p12007cjsn9adea8d51505',
+            'X-RapidAPI-Key': '3d016c63c3mshf19ac086b652107p112ea7jsn2c2c998bcf37',
             'X-RapidAPI-Host': 'netflix54.p.rapidapi.com'
         }
     };
